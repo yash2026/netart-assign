@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to bottom, rgba(255, 248, 170, 0), #fff8aa);
+  font-family: "Lora", serif;
+}

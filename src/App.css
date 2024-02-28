@@ -1,0 +1,26 @@
+.app {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+@media (max-width: 576px) {
+  .app {
+    padding: 5px;
+  }
+}
+@media (max-width: 576px) {
+  .achievement {
+    font-size: 12px;
+  }
+  .listing {
+    font-size: 10px;
+  }
+
+  .govt {
+    font-size: 10px;
+  }
+  .footer {
+    font-size: 12px;
+  }
+}

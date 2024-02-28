@@ -1,0 +1,29 @@
+.footer {
+  margin: auto;
+  background-color: rgba(198, 32, 32, 0.897);
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.telephone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.telephone a {
+  text-decoration: none;
+  color: white;
+}
+.tele {
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .telephone {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}

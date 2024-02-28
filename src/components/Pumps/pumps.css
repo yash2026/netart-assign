@@ -1,0 +1,53 @@
+.pumps {
+  border-bottom: 2px solid rgba(198, 32, 32, 0.897);
+}
+.intro {
+  font-size: 15px;
+  margin: 20px 5px;
+  letter-spacing: -0.5px;
+}
+
+.imagep {
+  max-width: 80%;
+  height: auto;
+}
+
+.image-div {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.para {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.heading {
+  text-align: center;
+  margin: 20px 0;
+}
+.separator {
+  color: rgba(198, 32, 32, 0.897);
+  font-weight: bolder;
+  font-size: large;
+}
+
+@media (max-width: 576px) {
+  .intro {
+    font-size: 12px;
+  }
+
+  .para {
+    font-size: 10px;
+  }
+
+  .separator {
+    font-size: 14px;
+    font-weight: normal;
+  }
+}

@@ -1,0 +1,27 @@
+.award {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+  gap: 20px;
+}
+
+.achievement {
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+.image2 {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.listing {
+  padding-left: 40px;
+  margin-bottom: 10px;
+}
